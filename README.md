@@ -1,7 +1,7 @@
 C# Öğrenme Alıştırmaları
 Bu depo C# öğrenme sürecimde yazdığım konsol uygulamalarını içermektedir.
 
-
+'''
   //ehliyet alma yaşı kontrolü
   Console.Write("Yaşınızı giriniz: ");
   if (int.TryParse(Console.ReadLine(), out int yas))
@@ -16,7 +16,7 @@ Bu depo C# öğrenme sürecimde yazdığım konsol uygulamalarını içermektedi
       }
       Console.ReadKey();
   }
-
+'''
 
     //tek mi çift mi kontrolü
   Console.Write("Bir sayı giriniz: ");
