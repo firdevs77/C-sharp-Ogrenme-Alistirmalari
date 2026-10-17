@@ -17,7 +17,7 @@ Bu depo C# öğrenme sürecimde yazdığım konsol uygulamalarını içermektedi
       Console.ReadKey();
   }
 ```
-
+```
     //tek mi çift mi kontrolü
   Console.Write("Bir sayı giriniz: ");
   if (int.TryParse(Console.ReadLine(), out int sayi))
@@ -26,9 +26,9 @@ Bu depo C# öğrenme sürecimde yazdığım konsol uygulamalarını içermektedi
       Console.WriteLine("Girdiğiniz sayı bir " + sonuc + "dır.");
   }
   Console.ReadKey();
+```
 
-
-
+```
   //mevsim belirleme
   Console.Write("bir ay ismi giriniz: ");
   string ayısmi = Console.ReadLine().ToLower();
@@ -59,12 +59,9 @@ Bu depo C# öğrenme sürecimde yazdığım konsol uygulamalarını içermektedi
           break;
   }
   Console.ReadKey();
+```
 
-
-
-
-
-
+```
  //basit hesap makinesi
  Console.WriteLine("1.sayıyı giriniz: ");
  if (!double.TryParse(Console.ReadLine(), out double sayi1))
@@ -109,10 +106,10 @@ Bu depo C# öğrenme sürecimde yazdığım konsol uygulamalarını içermektedi
  }
  Console.WriteLine(sonucMesajı);
  Console.ReadKey();
+```
 
 
-
-
+```
 //1'den 100'e kadar olan 3'e bölünebilen sayıların topl
 int toplam = 0;
 for (int i = 1; i <= 100; i++) 
@@ -122,10 +119,9 @@ for (int i = 1; i <= 100; i++)
 }
 Console.WriteLine("sonuç:  {0}", toplam);
 Console.ReadKey();
+```
 
-
-
-
+```
  //faktöriyel hasaplama
  int toplam = 1;
  int sayi;
@@ -137,10 +133,9 @@ Console.ReadKey();
  }
  Console.WriteLine("Sonuç: {0}", toplam);
  Console.ReadKey();
+```
 
-
-
-
+```
  //bakterilerin saat başı çoğalması
  int bacterium = 1;
 
@@ -150,9 +145,9 @@ Console.ReadKey();
      Console.WriteLine(i + ". saat: " + bacterium);
  }
  Console.ReadKey();
+```
 
-
-
+```
 //girilen sayıyı basamaklarına ayırır ve sayının oluştuğu rakamları toplar
 Console.Write("Lütfen bir sayı giriniz: ");
 int number = int.Parse(Console.ReadLine());
@@ -166,10 +161,9 @@ Console.WriteLine(ones + "--" + tens + "--" + hundreds);
 
 sum = ones + tens + hundreds;
 Console.WriteLine(sum);
+```
 
-
-
-
+```
   //* şekil oluşturma
   int n = 5;
   for (int i = 1; i <= n; i++)
@@ -197,5 +191,6 @@ Console.WriteLine(sum);
       {
           Console.Write("*");
       }
+```
       Console.WriteLine();
   }
